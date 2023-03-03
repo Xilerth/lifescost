@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;400;600;700&display=swap');
+:root {
+  --acented: #b46a00;
+  --primary: #e2e2e2;
+  --secondary: #e8e5e5;
+}
+
+body {
+  margin: 0;
+  background-color: var(--primary);
+  font-family: kanit, sans-serif;
+}
